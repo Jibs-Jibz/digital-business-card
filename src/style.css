@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background: #23252c;
+  color: white;
+  margin: auto;
+}
+.container {
+  /* max-height: 1500px; */
+  width: 400px;
+  background: #1a1b21;
+  border-radius: 15px;
+  margin: 5EM auto 3em auto;
+  text-align: center;
+}
+.s2 {
+  margin: auto;
+  max-width: 350px;
+}
+.s1 {
+  padding: 0%;
+  margin: 0 0 1em 0;
+}
+.s1 > p {
+  color: #f3bf99;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.s1 > h2 {
+  margin-bottom: 0;
+}
+
+.groot {
+  max-width: 100%;
+  /* max-height: 320px; */
+  padding: 0%;
+  border-radius: 15px 15px 0 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* LinkedIn button */
+.btn2 {
+  background-color: #5093e2;
+  color: white;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  max-width: 350px;
+}
+/* Email button */
+.btn1 {
+  background-color: #ffffff;
+  color: #1a1b21;
+}
+.btn2,
+.btn1 {
+  border: none;
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.fa-envelope {
+  color: #161619;
+  text-decoration: none;
+}
+.fa-linkedin {
+  color: #ffffff;
+  text-decoration: none;
+}
+.main {
+  text-align: left;
+}
+.h-text {
+  font-weight: 700;
+}
+.text {
+  color: #dcdcdc;
+  font-weight: 300;
+}
+/* Darker background on mouse-over */
+.btn2:hover {
+  background-color: inherit;
+}
+.btn1:hover {
+  background-color: #f3bf99;
+  color: inherit;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  height: 70px;
+  width: 400px;
+  /* margin: 2em 0 3em ; */
+  /* position: relative; */
+  background-color: #161619;
+  border-radius: 0 0 15px 15px;
+}
+.footer > a {
+  /* top: 50%; */
+  text-decoration: none;
+  align-self: center;
+  background: #161619;
+  color: #918e9b;
+}
